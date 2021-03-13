@@ -1,4 +1,5 @@
 # Implementing Stack using python Lists
+# Time and Space complexity of all methods is O(1) - constant
 
 class Stack:
     # create stack
