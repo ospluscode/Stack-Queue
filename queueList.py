@@ -1,6 +1,12 @@
 # Queue implementation using Py List
 # Enqueue and Dequeue TC is O(n), rest is O(1) as well as SC of all
 
+# Several other ways of implementing Queue is possible in Python using:
+# collections.deque
+# queue module
+# multiprocessing.queue
+
+
 class Queue:
     def __init__(self):
         self.list = []
